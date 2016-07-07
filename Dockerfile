@@ -22,3 +22,5 @@ cp /usr/share/nginx/html/inc/config-me.inc.php /usr/share/nginx/html/inc/config.
 ADD docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
 ENTRYPOINT ["/docker-entrypoint.sh"]
+
+EXPOSE 80
